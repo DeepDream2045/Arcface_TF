@@ -3,8 +3,6 @@ A TensorFlow implementation of [ArcFace](https://arxiv.org/abs/1801.07698) for f
 
 ![demo](docs/demo.gif)
 
-Video Demo: [TensorFlow Face Recognition Demo (Bilibili)](https://www.bilibili.com/video/BV16T4y1P72j/)
-
 ## Features
  - Build with TensorFlow 2.4 Keras API
  - Advanced model architecture: HRNet v2
@@ -32,13 +30,6 @@ Additional packages for inference with video
 
 ![OpenCV](https://img.shields.io/badge/OpenCV-v4.5-brightgreen)
 
-### Installing
-#### Get the source code for training
-
-```bash
-# From your favorite development directory
-git clone --recursive https://github.com/yinguobing/arcface
-```
 
 #### Download the training data
 You can use any dataset as long as they can be converted to TensorFlow Record files. If you do not have any dataset, please download one from the ArcFace official [dataset list](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo). 
@@ -158,14 +149,6 @@ python3 predict.py --video /path/to/video.mp4
 ```
 
 The most similar faces will be marked in the video frames. You can also use threshold to filter the results.
-
-## Authors
-Yin Guobing (尹国冰) - [yinguobing](https://yinguobing.com)
-
-![wechat](docs/wechat.png)
-
-## License
-![GitHub](https://img.shields.io/github/license/yinguobing/arcface)
 
 ## Acknowledgments
 - [ArcFace](https://github.com/deepinsight/insightface/tree/master/recognition): the official implementation in MXNet.

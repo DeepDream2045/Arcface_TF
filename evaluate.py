@@ -172,7 +172,7 @@ def evaluate(dataset, model, batch_size, num_folds=10):
 if __name__ == '__main__':
     # Loading test sets.
     test_set_name = "LFW"
-    bin_lfw = "/home/robin/hdd/data/raw/face/ms1m/faces_ms1m-refine-v2_112x112/faces_emore/lfw.bin"
+    bin_lfw = "/home/dream/hdd/data/raw/face/ms1m/faces_ms1m-refine-v2_112x112/faces_emore/lfw.bin"
     image_size = [112, 112]
     if os.path.exists(bin_lfw):
         print('loading.. ', test_set_name)

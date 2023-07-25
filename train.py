@@ -34,7 +34,7 @@ if __name__ == "__main__":
     name = "hrnetv2"
 
     # Where are the training files?
-    train_files = "/home/robin/data/face/faces_ms1m-refine-v2_112x112/faces_emore/train.record"
+    train_files = "/home/dream/data/face/faces_ms1m-refine-v2_112x112/faces_emore/train.record"
 
     # Where are the testing files?
     test_files = None
